@@ -2,6 +2,8 @@
 
 A [weggli](https://github.com/weggli-rs/weggli) frontend
 
+![](./dashboard.jpg)
+
 ## Build + Run
 
 ```bash
