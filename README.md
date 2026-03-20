@@ -2,10 +2,17 @@
 
 A [weggli](https://github.com/weggli-rs/weggli) frontend
 
+## Build + Run
+
+```bash
+go build -o weggler
+./weggler -addr "127.0.0.1:8081" -max-jobs 2
+```
+
 ## Delete all jobs:
 
 ```bash
-$ cat weggler.json | jq "del(.jobs)" > a.json && mv a.json weggler.json
+$ rm data/jobs/*
 ```
 
 ## Reset statistics:
